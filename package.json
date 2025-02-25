@@ -1,0 +1,13 @@
+{
+  "name": "untitled3",
+  "version": "1.0.1",
+  "description": "A tool to extract URLs and save web pages as MHTML/PDF/HTML",
+  "main": "topai.tools_ChatGPT",
+  "scripts": {
+    "start": "node AIMove.js \"z:\\AI-Tool\\Coding\\ALL\\Best AI Code Editors for Developers in 2025\\chatgpt\\chatgpt.md\"",
+    "build": "echo \"Build script not defined\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch-release": "npm version patch && npm publish",
+    "preinstall": "npm install -g puppeteer fs-extra axios"
+  }
+}
